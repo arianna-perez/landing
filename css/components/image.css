@@ -1,0 +1,27 @@
+.img-circle {
+  width: 150px !important;                     /* desktop width */
+  height: 150px !important;                    /* desktop height */
+  border-radius: 50% !important;              /* make it perfectly circular */
+  object-fit: cover !important;               /* crop nicely */
+  border: 3px solid rgba(255, 77, 166, 0.8) !important; /* pink border */
+  display: block !important;                  /* block-level to center */
+  margin: 15px auto !important;               /* centers the image */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .img-circle {
+    width: 120px !important;
+    height: 120px !important;
+  }
+}
+
+/* avatar / circular image */
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;  /* keeps aspect ratio correct */
+  display: block;
+  margin: 0 auto;     /* centers it */
+}

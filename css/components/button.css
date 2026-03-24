@@ -1,0 +1,37 @@
+/* Pink Button (Primary for profile/sections) */
+.btn-pink {
+  background-color: #ff4f87;   /* main pink color */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #e04379;
+}
+
+/* Blue Button (for banner/hero) */
+.btn-blue {
+  background-color: #007bff;   /* primary blue color */
+  color: white;
+  padding: 12px 25px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #0056b3;
+}
